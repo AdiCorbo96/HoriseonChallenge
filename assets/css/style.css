@@ -100,7 +100,7 @@ p {
 
 /* set height for seo, social media marketing, and online rep management images */
 .content img {
-    max-height: 210px;
+    max-height: 300px;
 }
 
 /* set style for seo, social media marketing, and online rep management h2's */
@@ -164,6 +164,6 @@ p {
 
 /* set font size and line height for content p text */
 .content p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.25;
 }
