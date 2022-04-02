@@ -1,13 +1,16 @@
+/* universal styles for padding, margin & border-box
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* add background color to body */
 body {
     background-color: #d9dcd6;
 }
 
+/* set header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* set header div h1 display style and font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* change color for "seo" in Horiseon in header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* add style to nav bar container */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* remove markers from nav bar ul items */
 .header div ul {
     list-style-type: none;
 }
 
+/* set display placement of nav bar ul items */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Set color and remove hyperlink style from nav bar anchors */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set font size for text within p tags */
 p {
     font-size: 16px;
 }
 
+/* set sizing and position for hero background image */
 .hero img {
     height: 900px;
     width: 100%;
@@ -58,22 +69,26 @@ p {
     background-position: center;
 }
 
+/* set left position of seo and social media marketing images */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* set right position of online rep management image */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* set style for div containing seo, social media marketing, and online rep management divs */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* set style for content within seo, social media marketing, and online rep management divs */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,15 +98,18 @@ p {
     color: #ffffff;
 }
 
+/* set height for seo, social media marketing, and online rep management images */
 .content img {
     max-height: 210px;
 }
 
+/* set style for seo, social media marketing, and online rep management h2's */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* set style for benefits container */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,22 +121,25 @@ p {
     background-color: #2589bd;
 }
 
+/* set color and bottom margin for benefits divs */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* set text position, bottom margin and font size for benefits h3's */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
     font-size: larger;
 }
 
+/* set font size for benefits p text */
 .benefits p {
     font-size: 20px;
 }
 
+/* set size and position for benefits images */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -126,6 +147,7 @@ p {
     max-height: auto;
 }
 
+/* set styles for footer container */
 .footer {
     padding: 30px;
     clear: both;
@@ -134,10 +156,12 @@ p {
     color: #ffffff;
 }
 
+/* set font size for footer h2 */
 .footer h2 {
     font-size: 20px;
 }
 
+/* set font size and line height for content p text */
 .content p {
     font-size: 18px;
     line-height: 1.25;
